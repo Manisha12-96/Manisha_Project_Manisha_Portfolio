@@ -197,17 +197,30 @@ text-transform:uppercase;
 /** header **/
 /* container hero */
 .hero {
+    margin-top: 0.5rem;
     color: var(--dark-gray);
-    display: block;
+    display:inline;
 }
-.hero img {
+/* .hero img {
     max-width: 350px;
     margin: auto;
-    display: block;
+    display: inline-block;
+    float: left;
+} */
+.hero img.profile-img {
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+    max-width: 350px;
+    margin: auto;
+    display: inline-block;
+    float: left;
 }
 .hero h1{
     text-align: center;
     margin-top: 01rem;
+    position: relative;
 }
 .hero h3{
     text-align: center;
@@ -229,6 +242,10 @@ text-transform:uppercase;
     margin-top:10px;
     margin-bottom: 20px;
     padding-bottom: 10px;
+}
+.primary-link {
+    background-color:var(--success);
+    color: #ffffff;
 }
 .section a:hover{
     background-color:  rgba(0, 0, 0, 0.651);
@@ -258,6 +275,10 @@ text-transform:uppercase;
     padding: 0.5rem;
     margin-top: 10px;
   }
+  .ow a {
+    background-color:rgb(115, 126, 94);
+    color: #ffffff;
+}
 /* sec-3 */
 .try{
     font-size: 20px;
@@ -269,7 +290,7 @@ text-transform:uppercase;
   }
   .try-1 .sec-3{
     background-color: rgba(20, 105, 34, 0.651);
-    color:  rgba(0, 0, 0, 0.651);
+    color:  rgba(150, 105, 105, 0.651);
     width: 760px;
     height: 140px;
     text-align: center;
