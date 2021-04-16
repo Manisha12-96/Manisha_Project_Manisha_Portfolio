@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root {
+    --success: #306430;
+    --gray: #F3F4F6;
+    --dark-gray:#6B7280;
+    --secondary: #b91c1c;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0px; */
+}
+
+hr {
+    margin: 2rem 0;;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+/** containers **/
+.container-fluid {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0px;
+}
+
+.container {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+}
+
+/** links **/
+
+.success-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--success);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--success);
+    
+    border: 1px solid var(--success);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.success-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--success);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link-outline {
+  color: var(--dark-gray);
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
+}
+
+/** nav **/
+.navigation {
+    background-color: var(--success);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand {
+    font-weight: bold;
+    
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+.navbar1 {
+    background-color: var(--success);
+    padding: 0rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position:relative;
+margin-top: 0px;
+    width: 100%;
+    overflow:auto;
+    height: 70px;
+    transition: 0.5s;
+}
+
+.navbar1.brand {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.navbar1 ul {
+    list-style: none;
+    text-align: right;
+    padding: 0%;
+    margin:0 0 0 150px;
+
+}
+
+.navbar1 li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.brand img{
+margin: 0px;
+width:40px;
+ height:40px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar1 .active {
+    font-weight: bold;
+}
+.navbar1 a:hover{
+background-color: rgb(115, 126, 94);
+transition: 0.5s;
+text-transform:uppercase;
+
+}
+
+.nav {
+    background-color: var(--success);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    transition: 0.5s;
+}
+
+.nav .brand {
+    font-weight: bold;
+    
+}
+
+.nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white
+}
+
+.nav .active {
+    font-weight: bold;
+}
+
+/** header **/
+/* container hero */
+.hero {
+    color: var(--dark-gray);
+    display: block;
+}
+.hero img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.hero h1{
+    text-align: center;
+    margin-top: 01rem;
+}
+.hero h3{
+    text-align: center;
+    margin-top: 01rem;
+}
+/** section **/
+
+.section {
+    padding: 2rem 0rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    background-color: rgba(20, 105, 34, 0.651);
+    color:  rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.section a:hover{
+    background-color:  rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 10px;
+  }
+/* section ow */
+.ow{
+    background-color: rgba(168, 167, 104, 0.568);
+    color:  rgba(0, 0, 0, 0.651);
+    text-align: center;
+    margin:05px 0px 05px 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .ow h2{
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .ow a:hover{
+    background-color:  rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 10px;
+  }
+/* sec-3 */
+.try{
+    font-size: 20px;
+    display: flex;
+  }
+  .try-1{
+    display: flex;
+    margin:auto;
+  }
+  .try-1 .sec-3{
+    background-color: rgba(20, 105, 34, 0.651);
+    color:  rgba(0, 0, 0, 0.651);
+    width: 760px;
+    height: 140px;
+    text-align: center;
+    /* border:1px solid rgba(37, 36, 36, 0.89); */
+    border-radius: 10px;
+    margin-right: 0.5rem; 
+    margin-bottom: 0.3rem;
+    padding:0;
+  
+  }
+  
+  .try-1 .sec-3 a:hover{
+    background-color:  rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 10px;
+  }
+  
+  .try-1 .sec-4{
+    background-color: rgba(168, 167, 104, 0.568);
+    color:  rgba(0, 0, 0, 0.651);
+    width:760px;
+    height:140px;
+    text-align: center;
+    /* border:1px solid  rgba(37, 36, 36, 0.89); */
+    border-radius: 10px;
+    margin-right:0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .try-1 .sec-4 a:hover{
+    background-color:  rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 10px;
+  }
+
+
+/** lists **/
+
+.unordered {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/** footer **/
+.footer {
+    background-color: var(--success);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+  
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer a:hover{
+    background-color: rgb(115, 126, 94);
+    transition: 0.5s;
+    text-transform:uppercase;
+    
+    }
+
+.f-link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .copyright{
+    font-size: 1rem;
+    left: 16%;
+  }
+
